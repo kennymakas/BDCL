@@ -48,7 +48,7 @@ header p a{
     margin-left: 85%;
 }
 @media only screen and (max-width: 500px) {
-    header p a{
+    header a{
         display: none;
         visibility: hidden;
         margin-top: 0;
