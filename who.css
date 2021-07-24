@@ -30,6 +30,9 @@ body {
     background-color: #0b162c;
     color: white;
   }
+  .about-section .card img{
+    border-radius: 50%;
+  }
   
   .container {
     padding: 0 16px;

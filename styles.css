@@ -4,7 +4,13 @@ body{
     margin-right: 20px;
     background-color:rgb(2, 24, 39);
 
-
+}
+ 
+@media only screen and (min-width: 200px) {
+    body{
+        margin: 1px;
+        background-color:rgb(2, 24, 39);
+    }
 }
 header{
     z-index: 4;
@@ -17,6 +23,19 @@ header{
     height: 80px;
     background-color: rgb(20, 20, 29);
 }
+@media only screen and (max-width: 200px) {
+    header{
+
+        width: 100%;
+        z-index: 4;
+        display: block;
+        position: fixed;
+        color: white;
+        margin: 0%;
+        top: 0;
+        background-color: rgb(20, 20, 29);
+    }
+}
 header p{
     margin-top: 0;
     height: 20px;
@@ -24,6 +43,16 @@ header p{
     color: whitesmoke;
     padding-right: 5px;
     text-align: right;
+}
+@media only screen and (max-width: 200px) {
+    header p{
+        margin-top: 0;
+        height: 20px;
+        background-color: black;
+        color: whitesmoke;
+        padding-right: 5px;
+        text-align: right;
+    }
 }
 header p  .fa-google {
     margin-top: 0;
@@ -38,6 +67,12 @@ header p .fa {
 .menu{
     color: white;
 }
+@media only screen and (min-width: 200px) {
+    .menu{
+        color: white;
+        margin-bottom: 10px;
+    }
+}
 .menu ul{
    color: white;
     margin-top: 0;
@@ -50,6 +85,15 @@ header p .fa {
     padding: 5px;
 list-style: none;
 text-decoration: none;
+}
+@media only screen and (min-width: 200px) {
+    .menu ul li{
+        float: left;
+        padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    }
 }
 .menu ul li a{
 margin-bottom: 20%;
@@ -64,9 +108,26 @@ margin-bottom: 20%;
     height: 40px;
     margin-left: 91%;
 }
+@media only screen and (min-width: 200px) {
+    .menu img{
+        margin-top: 0px;
+        position: absolute;
+        text-align: left;
+        height: 40px;
+        margin-left: 41%;
+    }
+}
 .slide{
     position: relative;
     margin: 10px;
+}
+@media only screen and (min-width: 200px) {
+    .slide{
+      
+        position: relative;
+        margin: 10px;
+    
+    }
 }
 .about-logo{
     color: white;
@@ -76,6 +137,14 @@ margin-bottom: 20%;
     align-items: center;
     text-align: center;
     
+}
+@media only screen and (min-width: 200px) {
+    .about-logo img{
+      width: 100%;
+      height: auto;
+      margin: 2px;
+        
+    }
 }
 #about-logo{
     padding-right: 20px;
@@ -111,6 +180,20 @@ article{
     line-height: 1.5em;
     letter-spacing: 0px;
 }
+@media only screen and (min-width: 200px) {
+    article{
+        margin-left: 0%;
+        margin-right: 2px;
+        color: white;
+        padding: 2px;
+        text-align: justify;
+        word-wrap: break-word;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0px;
+    }
 
 .our-mission{
     background-color: rgb(62, 55, 71);
@@ -126,12 +209,30 @@ article{
     text-transform: uppercase;
     display: block;
 }
+@media only screen and (min-width: 200px) {
+    .our-mission h1{
+        font-size: 20px;
+        color: white;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 200;
+        text-transform: uppercase;
+        display: block;
+    }
+}
 .our-mission img{
     margin-top: 10px;
     margin-left: 20px;
     padding: 10px;
     float: left;
 
+}
+@media only screen and (min-width: 200px) {
+    .our-mission img{
+        margin: 2px;
+        padding: 5px;
+        float: left;
+    
+    }
 }
 .our-mission article{
     width: 800px;
@@ -143,6 +244,18 @@ article{
     font-size: 14px;
     letter-spacing: 0.2px;
 
+}
+@media only screen and (min-width: 200px) {
+    .our-mission article{
+        width: 800px;
+        padding-top: 5px;
+        text-align: justify;
+        word-wrap: normal;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    
+    }
 }
 .our-vision{
     
@@ -158,6 +271,14 @@ article{
     float: left;
 
 }
+@media only screen and (min-width: 200px) {
+    .our-vision img{
+        margin: 2px;
+        padding: 5px;
+        float: left;
+    
+    }
+}
 .our-vision h1{
     color:white ;
     font-family: "Montserrat", Sans-serif;
@@ -166,6 +287,18 @@ article{
     display: block;
   
 }
+@media only screen and (min-width: 200px) {
+    .our-vision h1{
+        font-size: 20px;
+        color:white ;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: block;
+      
+    }
+}
+
 .our-vision article{
     font-family: "Montserrat", Sans-serif;
     font-size: 14px;
@@ -179,6 +312,18 @@ article{
     overflow-wrap: break-word;
     
 }
+@media only screen and (min-width: 200px) {
+    .our-vision article{
+        width: 800px;
+        padding-top: 5px;
+        text-align: justify;
+        word-wrap: normal;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    
+    }
+
 .projects{
     color: cornsilk;
     font-family: "Montserrat", Sans-serif;
@@ -197,9 +342,22 @@ background-color: rgb(46, 35, 63);
     font-size: 48px;
     margin-left: 10px;
 }
+@media only screen and (min-width: 200px) {
+    .contact h2{
+        font-family: "Montserrat", Sans-serif;
+        font-size: 24px;
+        margin-left: 20px;
+    }
+}
 .contact a{
     padding: 30px;
 
+}
+@media only screen and (min-width: 200px) {
+    .contact a{
+        padding: 5px;
+    
+    }
 }
 .fa {
     padding: 20px;
@@ -209,6 +367,16 @@ background-color: rgb(46, 35, 63);
     text-decoration: none;
     margin: 5px 2px;
   }
+  @media only screen and (min-width: 200px) {
+    .fa {
+        padding: 5px;
+        font-size: 10px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+}
   
   .fa:hover {
       opacity: 0.7;
