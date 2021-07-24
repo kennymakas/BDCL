@@ -8,7 +8,9 @@ body{
  
 @media only screen and (min-width: 200px) {
     body{
-        margin: 1px;
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
         background-color:rgb(2, 24, 39);
     }
 }
@@ -23,15 +25,14 @@ header{
     height: 80px;
     background-color: rgb(20, 20, 29);
 }
-@media only screen and (max-width: 200px) {
+@media only screen and (min-width: 200px) {
     header{
-
         width: 100%;
         z-index: 4;
         display: block;
         position: fixed;
         color: white;
-        margin: 0%;
+        margin: 10px;
         top: 0;
         background-color: rgb(20, 20, 29);
     }
@@ -41,17 +42,22 @@ header p{
     height: 20px;
     background-color: black;
     color: whitesmoke;
-    padding-right: 5px;
+    padding-right: 2px;
     text-align: right;
+    margin-right: 89px;
 }
-@media only screen and (max-width: 200px) {
-    header p{
+@media only screen and (min-width: 200px; ) {
+    header p a{
+        display: none;
+        visibility: hidden;
         margin-top: 0;
         height: 20px;
         background-color: black;
         color: whitesmoke;
-        padding-right: 5px;
+        padding-right: 2px;
         text-align: right;
+        margin-left: 16%;
+
     }
 }
 header p  .fa-google {
@@ -60,6 +66,7 @@ header p  .fa-google {
     color:white;
   }
 header p .fa {
+    padding: 2px;
     margin: 0px;
     text-decoration: none;
  
@@ -71,6 +78,7 @@ header p .fa {
     .menu{
         color: white;
         margin-bottom: 10px;
+        margin: 0;
     }
 }
 .menu ul{
@@ -87,7 +95,7 @@ list-style: none;
 text-decoration: none;
 }
 @media only screen and (min-width: 200px) {
-    .menu ul li{
+    .menu ul li  {
         float: left;
         padding: 5px;
     list-style: none;
@@ -113,8 +121,9 @@ margin-bottom: 20%;
         margin-top: 0px;
         position: absolute;
         text-align: left;
-        height: 40px;
-        margin-left: 41%;
+        height: 20px;
+        margin-left: 83%;
+        z-index: 4;
     }
 }
 .slide{
@@ -123,9 +132,10 @@ margin-bottom: 20%;
 }
 @media only screen and (min-width: 200px) {
     .slide{
-      
+      width: 90%;
         position: relative;
-        margin: 10px;
+        height: auto;
+        margin-bottom: 5px;
     
     }
 }
@@ -139,10 +149,22 @@ margin-bottom: 20%;
     
 }
 @media only screen and (min-width: 200px) {
-    .about-logo img{
-      width: 100%;
-      height: auto;
-      margin: 2px;
+    .about-logo{
+        z-index: 4;
+        margin-top: 20px;
+        color: white;
+        border-radius: 10px;
+        margin-left:3px ;
+        margin-right:30px ;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 200px) {
+    .about-logo p img{
+      width: 300px;
+  margin-left: 5px;
+      margin-top: 10px;
         
     }
 }
@@ -168,7 +190,7 @@ margin-bottom: 20%;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-article{
+.about-logo article{
     margin-left: 10px;
     color: white;
     padding: 5px;
@@ -198,7 +220,7 @@ article{
 .our-mission{
     background-color: rgb(62, 55, 71);
     border-radius: 10px 10px 0px 0px ;
-    height: 200px;
+    width: 100%;
 
 
 }
@@ -247,10 +269,10 @@ article{
 }
 @media only screen and (min-width: 200px) {
     .our-mission article{
-        width: 800px;
+        width: 100%;
         padding-top: 5px;
         text-align: justify;
-        word-wrap: normal;
+        word-wrap: break-word;
         font-family: "Montserrat", Sans-serif;
         font-size: 14px;
         letter-spacing: 0.2px;
@@ -261,7 +283,7 @@ article{
     
     background-color: rgb(47, 42, 53);
     border-radius: 0px 0px 10px 10px ;
-    height: 150px;
+    height: auto;
 
 
 }
@@ -314,7 +336,7 @@ article{
 }
 @media only screen and (min-width: 200px) {
     .our-vision article{
-        width: 800px;
+        width: 100%;
         padding-top: 5px;
         text-align: justify;
         word-wrap: normal;
@@ -370,7 +392,7 @@ background-color: rgb(46, 35, 63);
   @media only screen and (min-width: 200px) {
     .fa {
         padding: 5px;
-        font-size: 10px;
+        font-size: 5px;
         width: 50px;
         text-align: center;
         text-decoration: none;
