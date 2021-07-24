@@ -24,6 +24,7 @@ body {
   }
   
   .about-section {
+    z-index: 4;
     text-transform: capitalize;
     padding:60px 50px 50px 40px;
     text-align: center;

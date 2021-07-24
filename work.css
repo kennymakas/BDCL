@@ -16,6 +16,18 @@
     display: inline-block;
     
 }
+@media only screen and (max-width: 500px) {
+    .container .box{
+        position: relative;
+        width: 100%;
+        height: 180px;
+        background: transparent;
+        margin: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+        
+    }
+  }
 .container .box .imgbox{
     position: relative;
     overflow: hidden;
@@ -32,6 +44,11 @@
 .container .box:hover .imgbox img{
 transform: scale(1.2);
 }
+@media only screen and (max-width: 500px) {
+    .container .box:hover .imgbox img{
+        transform: scale(1.2);
+        }
+  }
 .container .box .details{
     position: absolute;
     top: 20px;
@@ -45,6 +62,11 @@ transform: scale(1.2);
 .container .box:hover .details{
     transform: scaleY(1);  
 }
+@media only screen and (max-width: 500px) {
+    .container .box:hover .details{
+        transform: scaleY(1);  
+    }
+  }
 .container .box .details .content{
     position: absolute;
     top:50%;
@@ -64,3 +86,18 @@ transform: scale(1.2);
     margin:10px 0 0;
     padding: 0;
 }
+@media only screen and (max-width: 700px) {
+    .container {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .container {
+      width: 100%;
+      padding: 3px;
+      margin: 2px;
+    }
+  }
+  
