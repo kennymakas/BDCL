@@ -2,6 +2,12 @@
     box-sizing: border-box;
    
   }
+  h2{
+    position: absolute;
+    color: white;
+    margin: 20px 30px 30px 30px;
+    font-size: 24px;
+  }
   
   /* Style inputs */
   input[type=text], select, textarea {
@@ -63,9 +69,91 @@
   }
   .column ul li{
       padding: 8PX;
-      font-size: 40px;
     text-decoration: none;
     list-style: none;
     float: left;
     flex-direction: row;
 }
+.contact{
+  margin-bottom: 20px;
+  color: cornsilk;
+  height: auto;
+  background-color: transparent;
+  font-size: 48px;
+  
+}
+.contact h2{
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .contact h2{
+      font-family: "Montserrat", Sans-serif;
+      font-size: 24px;
+      margin-left: 20px;
+  }
+}
+.contact a{
+  padding: 30px;
+
+}
+@media only screen and (max-width: 500px) {
+  .contact a{
+      padding: 5px;
+  
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+@media only screen and (max-width: 500px) {
+  .fa {
+      padding: 5px;
+      font-size: 30px;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      margin: 2px 2px;
+      float: left;
+    }
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color:white;
+}
+
+.fa-twitter {
+  color:white;
+}
+
+.fa-google {
+  color:white;
+}
+
+.fa-linkedin {
+  color:white;
+}
+
+.fa-youtube {
+  color:white;
+}
+
+.fa-instagram {
+  color:white;
+}
+.fa-whatsapp {
+  color:white;}
+ .column ul li .fa-tell{
+    font-size: 10px;
+    color:white;}
+  
